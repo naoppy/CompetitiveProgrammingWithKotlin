@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc2a01bf-2985-4cd1-b366-b63182a4dd75" name="Default Changelist" comment="" />
+    <list default="true" id="fc2a01bf-2985-4cd1-b366-b63182a4dd75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/strings/SAIS.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/algorithms/strings/SAISKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/strings/SuffixArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/strings/SuffixArray.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,12 +17,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="KotlinTest Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Re9LJSRWhAtFtrQg6PY4w2clKi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -45,6 +54,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="algorithms.strings" />
+      <recent name="algorithms.search" />
       <recent name="algorithms.math" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -64,26 +75,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ModIntTest.mod int with no arguments is set mod=1e9+7, value=0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SAISKtTest.testCaseCreateTest">
+    <configuration name="BinarySearchKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgrammingWithKotlin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.math.ModInt2_61_1Kt" />
+          <option name="PATTERN" value="algorithms.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithms.math" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.math.ModIntTest" />
-      <option name="METHOD_NAME" value="mod int with no arguments is set mod=1e9+7, value=0" />
+      <option name="PACKAGE_NAME" value="algorithms.search" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.search.BinarySearchKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchKtTest.rangeUpperBound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgrammingWithKotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.search" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.search.BinarySearchKtTest" />
+      <option name="METHOD_NAME" value="rangeUpperBound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SAISKtTest.SAIS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgrammingWithKotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.strings" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.SAISKtTest" />
+      <option name="METHOD_NAME" value="SAIS" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SAISKtTest.testCaseCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgrammingWithKotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.strings" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.SAISKtTest" />
+      <option name="METHOD_NAME" value="testCaseCreateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BinarySearchKtTest" />
+      <item itemvalue="JUnit.BinarySearchKtTest.rangeUpperBound" />
+      <item itemvalue="JUnit.SAISKtTest.SAIS" />
+      <item itemvalue="JUnit.SAISKtTest.testCaseCreateTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ModIntTest.mod int with no arguments is set mod=1e9+7, value=0" />
+        <item itemvalue="JUnit.SAISKtTest.testCaseCreateTest" />
+        <item itemvalue="JUnit.SAISKtTest.SAIS" />
+        <item itemvalue="JUnit.BinarySearchKtTest" />
+        <item itemvalue="JUnit.BinarySearchKtTest.rangeUpperBound" />
       </list>
     </recent_temporary>
   </component>
@@ -102,11 +169,47 @@
       <workItem from="1570201336645" duration="2138000" />
       <workItem from="1570287190741" duration="1999000" />
       <workItem from="1570291198060" duration="3546000" />
-      <workItem from="1570329381621" duration="181000" />
+      <workItem from="1570329381621" duration="1514000" />
+      <workItem from="1570463074142" duration="138000" />
+      <workItem from="1570544725515" duration="6155000" />
+      <workItem from="1570627875563" duration="1835000" />
+      <workItem from="1570705964520" duration="2139000" />
+      <workItem from="1570717869982" duration="43000" />
+      <workItem from="1570781733333" duration="1040000" />
+      <workItem from="1570792112392" duration="1215000" />
+      <workItem from="1570806605980" duration="2724000" />
+      <workItem from="1570846727940" duration="4175000" />
+      <workItem from="1570851173743" duration="138000" />
+      <workItem from="1570851375251" duration="106000" />
     </task>
+    <task id="LOCAL-00001" summary="BinarySearchにて、lower_boundとupper_boundを実装">
+      <created>1570550364268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570550364268</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BinarySearchにて、lower_boundとupper_boundを実装" />
+    <option name="LAST_COMMIT_MESSAGE" value="BinarySearchにて、lower_boundとupper_boundを実装" />
   </component>
 </project>
