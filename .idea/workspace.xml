@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc2a01bf-2985-4cd1-b366-b63182a4dd75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/strings/Z-algorithm.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/algorithms/strings/Z_algorithmKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/strings/LevenshteinDistance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/algorithms/strings/LevenshteinDistanceKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,9 +16,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="KotlinTest Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -78,8 +76,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Z_algorithmKtTest">
-    <configuration name="SAISKtTest.SAIS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LevenshteinDistanceKtTest.levenshteinDistanceTest">
+    <configuration name="LevenshteinDistanceKtTest.levenshteinDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgrammingWithKotlin" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +86,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="algorithms.strings" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.strings.SAISKtTest" />
-      <option name="METHOD_NAME" value="SAIS" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.LevenshteinDistanceKtTest" />
+      <option name="METHOD_NAME" value="levenshteinDistanceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SAISKtTest.testCaseCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeveshteinDistanceKtTest.levenshteinDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgrammingWithKotlin" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +102,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="algorithms.strings" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.strings.SAISKtTest" />
-      <option name="METHOD_NAME" value="testCaseCreateTest" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.LeveshteinDistanceKtTest" />
+      <option name="METHOD_NAME" value="levenshteinDistanceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,19 +157,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SAISKtTest.SAIS" />
-      <item itemvalue="JUnit.SAISKtTest.testCaseCreateTest" />
       <item itemvalue="JUnit.Z_algorithmKtTest.Z-algorithmTest" />
       <item itemvalue="JUnit.Z_algorithmKtTest.Z-searchTest" />
       <item itemvalue="JUnit.Z_algorithmKtTest" />
+      <item itemvalue="JUnit.LeveshteinDistanceKtTest.levenshteinDistanceTest" />
+      <item itemvalue="JUnit.LevenshteinDistanceKtTest.levenshteinDistanceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LevenshteinDistanceKtTest.levenshteinDistanceTest" />
+        <item itemvalue="JUnit.LeveshteinDistanceKtTest.levenshteinDistanceTest" />
         <item itemvalue="JUnit.Z_algorithmKtTest" />
         <item itemvalue="JUnit.Z_algorithmKtTest.Z-searchTest" />
         <item itemvalue="JUnit.Z_algorithmKtTest.Z-algorithmTest" />
-        <item itemvalue="JUnit.SAISKtTest.testCaseCreateTest" />
-        <item itemvalue="JUnit.SAISKtTest.SAIS" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +201,8 @@
       <workItem from="1570851173743" duration="138000" />
       <workItem from="1570851375251" duration="272000" />
       <workItem from="1570851673879" duration="3088000" />
-      <workItem from="1570928526286" duration="4429000" />
+      <workItem from="1570928526286" duration="4609000" />
+      <workItem from="1570956066308" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="BinarySearchにて、lower_boundとupper_boundを実装">
       <created>1570550364268</created>
@@ -219,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570851636459</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="algorithm.strings以下にZ-algorithmによるZ-Arrayの構築、Z-algorithmによる文字列の検索関数を追加。&#10;テストも作成。">
+      <created>1570948415318</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570948415318</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +247,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BinarySearchにて、lower_boundとupper_boundを実装" />
     <MESSAGE value="algorithms.strings以下にSA-IS法によるSuffixArrayの構築を実装&#10;SA-ISはテストが通ることを確認" />
-    <option name="LAST_COMMIT_MESSAGE" value="algorithms.strings以下にSA-IS法によるSuffixArrayの構築を実装&#10;SA-ISはテストが通ることを確認" />
+    <MESSAGE value="algorithm.strings以下にZ-algorithmによるZ-Arrayの構築、Z-algorithmによる文字列の検索関数を追加。&#10;テストも作成。" />
+    <option name="LAST_COMMIT_MESSAGE" value="algorithm.strings以下にZ-algorithmによるZ-Arrayの構築、Z-algorithmによる文字列の検索関数を追加。&#10;テストも作成。" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
