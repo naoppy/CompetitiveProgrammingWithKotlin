@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc2a01bf-2985-4cd1-b366-b63182a4dd75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/strings/SAIS.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/algorithms/strings/SAISKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/strings/Z-algorithm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/algorithms/strings/Z_algorithmKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/strings/SuffixArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/strings/SuffixArray.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +19,7 @@
       <list>
         <option value="KotlinTest Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -32,6 +34,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -47,10 +50,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="プロジェクト" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15039062" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -75,38 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SAISKtTest.testCaseCreateTest">
-    <configuration name="BinarySearchKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgrammingWithKotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.search" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.search.BinarySearchKtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearchKtTest.rangeUpperBound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgrammingWithKotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.search" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.search.BinarySearchKtTest" />
-      <option name="METHOD_NAME" value="rangeUpperBound" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Z_algorithmKtTest">
     <configuration name="SAISKtTest.SAIS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgrammingWithKotlin" />
       <extension name="coverage">
@@ -139,18 +111,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Z_algorithmKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgrammingWithKotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.strings" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.Z_algorithmKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_algorithmKtTest.Z-algorithmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgrammingWithKotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.strings" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.Z_algorithmKtTest" />
+      <option name="METHOD_NAME" value="Z-algorithmTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_algorithmKtTest.Z-searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgrammingWithKotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.strings" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.Z_algorithmKtTest" />
+      <option name="METHOD_NAME" value="Z-searchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.BinarySearchKtTest" />
-      <item itemvalue="JUnit.BinarySearchKtTest.rangeUpperBound" />
       <item itemvalue="JUnit.SAISKtTest.SAIS" />
       <item itemvalue="JUnit.SAISKtTest.testCaseCreateTest" />
+      <item itemvalue="JUnit.Z_algorithmKtTest.Z-algorithmTest" />
+      <item itemvalue="JUnit.Z_algorithmKtTest.Z-searchTest" />
+      <item itemvalue="JUnit.Z_algorithmKtTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Z_algorithmKtTest" />
+        <item itemvalue="JUnit.Z_algorithmKtTest.Z-searchTest" />
+        <item itemvalue="JUnit.Z_algorithmKtTest.Z-algorithmTest" />
         <item itemvalue="JUnit.SAISKtTest.testCaseCreateTest" />
         <item itemvalue="JUnit.SAISKtTest.SAIS" />
-        <item itemvalue="JUnit.BinarySearchKtTest" />
-        <item itemvalue="JUnit.BinarySearchKtTest.rangeUpperBound" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +201,9 @@
       <workItem from="1570806605980" duration="2724000" />
       <workItem from="1570846727940" duration="4175000" />
       <workItem from="1570851173743" duration="138000" />
-      <workItem from="1570851375251" duration="106000" />
+      <workItem from="1570851375251" duration="272000" />
+      <workItem from="1570851673879" duration="3088000" />
+      <workItem from="1570928526286" duration="4429000" />
     </task>
     <task id="LOCAL-00001" summary="BinarySearchにて、lower_boundとupper_boundを実装">
       <created>1570550364268</created>
@@ -189,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570550364268</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="algorithms.strings以下にSA-IS法によるSuffixArrayの構築を実装&#10;SA-ISはテストが通ることを確認">
+      <created>1570851636459</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570851636459</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +240,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BinarySearchにて、lower_boundとupper_boundを実装" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinarySearchにて、lower_boundとupper_boundを実装" />
+    <MESSAGE value="algorithms.strings以下にSA-IS法によるSuffixArrayの構築を実装&#10;SA-ISはテストが通ることを確認" />
+    <option name="LAST_COMMIT_MESSAGE" value="algorithms.strings以下にSA-IS法によるSuffixArrayの構築を実装&#10;SA-ISはテストが通ることを確認" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
