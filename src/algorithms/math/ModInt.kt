@@ -1,13 +1,9 @@
 package algorithms.math
 
-class ModInt(val modulus: Long = (1e9 + 7).toLong(),
-             initialValue: Long = 0L) {
+class ModInt(initialValue: Long = 0L,
+             val modulus: Long = (1e9 + 7).toLong()) {
     var value: Long = initialValue % modulus
         private set
-
-    constructor(modulus: Number, initialValue: Number) :
-            this(modulus.toLong(), initialValue.toLong()) {
-    }
 
     operator fun plusAssign(other: ModInt) {
         this.value += other.value
@@ -45,7 +41,7 @@ class ModInt(val modulus: Long = (1e9 + 7).toLong(),
         }
         u %= modulus
         if (u < 0) u += modulus
-        return ModInt(this.modulus, u)
+        return ModInt(u, this.modulus)
     }
 
     override fun equals(other: Any?): Boolean {
