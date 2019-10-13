@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc2a01bf-2985-4cd1-b366-b63182a4dd75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/algorithms/strings/SuffixArrayTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/math/ModInt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/math/ModInt.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/algorithms/math/ModIntTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/math/ModIntTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/strings/SuffixArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/strings/SuffixArray.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
       <list>
         <option value="KotlinTest Class" />
         <option value="Kotlin Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -100,38 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModIntTest.mod int with no arguments is set mod=1e9+7, value=0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgrammingWithKotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.math" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.math.ModIntTest" />
-      <option name="METHOD_NAME" value="mod int with no arguments is set mod=1e9+7, value=0" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ModIntTest.modInt calc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgrammingWithKotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.math" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.math.ModIntTest" />
-      <option name="METHOD_NAME" value="modInt calc" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ModIntTest.modInt must be initialized given value" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgrammingWithKotlin" />
       <extension name="coverage">
@@ -148,20 +116,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SuffixArrayTest.appearIndexes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgrammingWithKotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.strings" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.SuffixArrayTest" />
+      <option name="METHOD_NAME" value="appearIndexes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuffixArrayTest.contains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgrammingWithKotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.strings" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.strings.SuffixArrayTest" />
+      <option name="METHOD_NAME" value="contains" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.CompetitiveProgrammingWithKotlin 内のすべて" />
-      <item itemvalue="JUnit.ModIntTest.mod int with no arguments is set mod=1e9+7, value=0" />
       <item itemvalue="JUnit.ModIntTest.modInt must be initialized given value" />
-      <item itemvalue="JUnit.ModIntTest.modInt calc" />
       <item itemvalue="JUnit.ModIntTest" />
+      <item itemvalue="JUnit.SuffixArrayTest.contains" />
+      <item itemvalue="JUnit.SuffixArrayTest.appearIndexes" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CompetitiveProgrammingWithKotlin 内のすべて" />
+        <item itemvalue="JUnit.SuffixArrayTest.appearIndexes" />
+        <item itemvalue="JUnit.SuffixArrayTest.contains" />
         <item itemvalue="JUnit.ModIntTest" />
         <item itemvalue="JUnit.ModIntTest.modInt must be initialized given value" />
-        <item itemvalue="JUnit.ModIntTest.modInt calc" />
-        <item itemvalue="JUnit.ModIntTest.mod int with no arguments is set mod=1e9+7, value=0" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +194,8 @@
       <workItem from="1570851375251" duration="272000" />
       <workItem from="1570851673879" duration="3088000" />
       <workItem from="1570928526286" duration="4609000" />
-      <workItem from="1570956066308" duration="3886000" />
+      <workItem from="1570956066308" duration="4076000" />
+      <workItem from="1570980539753" duration="2244000" />
     </task>
     <task id="LOCAL-00001" summary="BinarySearchにて、lower_boundとupper_boundを実装">
       <created>1570550364268</created>
@@ -224,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570956344399</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ModIntのコンストラクタのジグネチャを変更。&#10;ModIntのテストを大幅に追加。">
+      <created>1570960065608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570960065608</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +256,8 @@
     <MESSAGE value="algorithms.strings以下にSA-IS法によるSuffixArrayの構築を実装&#10;SA-ISはテストが通ることを確認" />
     <MESSAGE value="algorithm.strings以下にZ-algorithmによるZ-Arrayの構築、Z-algorithmによる文字列の検索関数を追加。&#10;テストも作成。" />
     <MESSAGE value="algorithm.strings以下にレーベシュタイン距離を算出する関数を追加。&#10;テストも作成。" />
-    <option name="LAST_COMMIT_MESSAGE" value="algorithm.strings以下にレーベシュタイン距離を算出する関数を追加。&#10;テストも作成。" />
+    <MESSAGE value="ModIntのコンストラクタのジグネチャを変更。&#10;ModIntのテストを大幅に追加。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ModIntのコンストラクタのジグネチャを変更。&#10;ModIntのテストを大幅に追加。" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

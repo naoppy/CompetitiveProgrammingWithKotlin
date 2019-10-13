@@ -1,5 +1,7 @@
 package algorithms.strings
 
+import java.lang.Integer.min
+
 class SuffixArray(val s: String) {
     private val sa: IntArray = SAIS(s)
     val size = s.length
@@ -20,7 +22,7 @@ class SuffixArray(val s: String) {
         var high = size
         while (high - low > 1) {
             val mid = low + (high - low) / 2
-            if (s.substring(sa[mid]) < t) low = mid
+            if (s.substring(sa[mid], min(s.length, sa[mid] + t.length)) < t) low = mid
             else high = mid
         }
         return high
@@ -36,7 +38,7 @@ class SuffixArray(val s: String) {
         var high = size
         while (high - low > 1) {
             val mid = low + (high - low) / 2
-            if (s.substring(sa[mid]) <= t) low = mid
+            if (s.substring(sa[mid], min(s.length, sa[mid] + t.length)) <= t) low = mid
             else high = mid
         }
         return high
@@ -53,6 +55,7 @@ class SuffixArray(val s: String) {
 
     /**
      * 文字列tが文字列sに含まれているか判定する。
+     *
      * O(t.length log s.length) = O(m log n)
      */
     operator fun contains(t: String): Boolean {
@@ -62,7 +65,9 @@ class SuffixArray(val s: String) {
 
     /**
      * 文字列tが出現するsのインデックスのリストを返す
+     *
      * O(max(t.length log s.length, s.length)) = O(max(m log n, n))
+     * ソートされていないことに注意！
      */
     fun appearIndexes(t: String): List<Int> {
         val sec = getSection(t)
