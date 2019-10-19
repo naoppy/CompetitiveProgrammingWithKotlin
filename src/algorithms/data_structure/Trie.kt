@@ -74,12 +74,12 @@ class Trie(val charSize: Int = 26, val margin: Int = 'a'.toInt()) {
 
         for (nextNodeIndex in nodes[nodeIndex].next) {
             if (nextNodeIndex == -1) continue
-            (nodes[nextNodeIndex].exist + nodes[nextNodeIndex].accepted.size).let { children ->
-                if (children >= newK) {
-                    return searchKthNode(newK, nextNodeIndex)
-                } else {
-                    newK -= children
-                }
+            val children = nodes[nextNodeIndex].exist + nodes[nextNodeIndex].accepted.size
+
+            if (children >= newK) {
+                return searchKthNode(newK, nextNodeIndex)
+            } else {
+                newK -= children
             }
         }
 
